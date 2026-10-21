@@ -35,6 +35,7 @@ See [`docs/network-configuration.md`](docs/network-configuration.md) for details
 | [Storage and RAID](docs/storage-and-raid.md) | Storage layout and RAID notes |
 | [Services and Virtual Machines](docs/services-and-virtual-machines.md) | Virtualization and planned services |
 | [Troubleshooting](docs/troubleshooting.md) | Issues, diagnosis, and solutions |
+| [iLO Remote Management](docs/ilo-remote-management.md) | Accessing legacy iLO 3 through a compatible browser environment |
 
 ## Project Goals
 
