@@ -266,7 +266,11 @@ This confirmed that the guest operating system had booted and that HTTP access f
 
 **Note:** The exact IP address and a screenshot of the final web page have not been recorded in this document. They can be added as project evidence later.
 
+### Web Interface Screenshot
 
+The following screenshot demonstrates successful HTTP access to the Metasploitable 2 web interface.
+
+![Metasploitable 2 Web Interface](../screenshots/metasploitable2/web-page.png)
 
 ## 11. Network Security Considerations
 
