@@ -141,4 +141,35 @@ Metasploitable 2 is intentionally vulnerable and is designed for security traini
 **Network isolation is strongly recommended.**
 
 - Do not expose the VM directly to the public internet.
-- Prefer an isolated
+- Prefer an isolated Proxmox bridge or a dedicated lab network.
+- Avoid placing the VM on the normal home LAN while performing security tests.
+- Do not use the VM to test systems without explicit authorization.
+- Verify the network configuration before beginning penetration-testing exercises.
+
+The VM was initially connected through `vmbr0`. Its isolation should be verified before further security testing.
+
+## 8. Skills Demonstrated
+
+This project demonstrates practical experience with:
+
+- Proxmox VE virtual machine management
+- Linux command-line administration
+- QEMU disk image inspection and conversion
+- VMDK and QCOW2 virtual disk formats
+- Virtual disk attachment and boot configuration
+- Proxmox storage configuration
+- Troubleshooting virtual machine boot failures
+- Basic network and web-service verification
+- Technical documentation using Markdown and GitHub
+
+## 9. Project Outcome
+
+Metasploitable 2 was successfully deployed on Proxmox VE, and its web interface was verified from a browser.
+
+The deployment required troubleshooting a stalled disk import, a root filesystem boot error, and a Proxmox storage content-type configuration issue.
+
+This project is part of my home lab infrastructure and provides a foundation for isolated penetration-testing and cybersecurity practice.
+
+---
+
+**Repository:** [homelab-infrastructure](https://github.com/alireza-botshekan/homelab-infrastructure)
