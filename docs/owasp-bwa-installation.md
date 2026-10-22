@@ -1,6 +1,6 @@
 # OWASP Broken Web Applications on Proxmox VE
 
-![OWASP BWA Successful Boot](../screenshots/owasp-bwa/console-success.png)
+![OWASP BWA Successful Boot](../screenshots/owasp-bwa/console-success1.png)
 
 ## Overview
 
@@ -162,7 +162,7 @@ The console also provided administration information and the default credentials
 
 The successful boot confirmed that the converted virtual disk was usable and the guest operating system could start under Proxmox.
 
-![OWASP BWA Console](../screenshots/owasp-bwa/console-success.png)
+![OWASP BWA Console](../screenshots/owasp-bwa/console-success1.png)
 
 ## 6. Accessing the Web Applications
 
