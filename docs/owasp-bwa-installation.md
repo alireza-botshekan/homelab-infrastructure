@@ -204,7 +204,7 @@ The original guest specifically warns users to run the VM only on a host-only or
 
 ## Conclusion
 
-OWASP Broken Web Applications VM 1.2 was successfully booted on Proxmox VE 9.2
+OWASP Broken Web Applications VM 1.2 was successfully booted on Proxmox VE 9.2.
 
 The original VMware disk was converted to QCOW2, attached to the Proxmox VM, and configured to use an LSI Logic SCSI controller consistent with the original VMware configuration.
 
